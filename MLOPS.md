@@ -109,4 +109,27 @@ Automatiser :
   - seuil qualité dépassé
 
 Pipeline typique :
+Data → Validation → Training → Evaluation → Registry → Deployment
+↑ ↓
+Monitoring ←----------←
 
+---
+
+## ✅ Résumé visuel
+
+| Principe | Objectif | Outils |
+|---|---|---|
+| Transition Friction | Standardisation | Templates, Docs |
+| Version Control | Traçabilité | Git, DVC, MLflow |
+| Performance | Scalabilité | Docker, K8s |
+| Automation | Pipelines | CI/CD, MLflow |
+| Monitoring | Qualité prod | Prometheus, Grafana |
+| Continuous Training | Adaptation | Auto retraining |
+
+---
+
+## 🧠 Message clé pour le cours
+
+> Le cœur du MLOps moderne (et de MLflow) n’est pas seulement d’entraîner un modèle, mais de maintenir **un pipeline vivant, monitoré et automatisé**.
+
+---
