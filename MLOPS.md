@@ -1,4 +1,4 @@
-# 🧭 MLOps Standards & Principles
+<!-- # 🧭 MLOps Standards & Principles
 
 > Objectif : réduire la friction entre développement et production, garantir la qualité, la traçabilité et la reproductibilité des modèles ML.
 
@@ -131,5 +131,142 @@ Monitoring ←----------←
 ## 🧠 Message clé pour le cours
 
 > Le cœur du MLOps moderne (et de MLflow) n’est pas seulement d’entraîner un modèle, mais de maintenir **un pipeline vivant, monitoré et automatisé**.
+
+--- -->
+
+# 🧭 MLOps Standards & Principles
+
+> Objective: reduce friction between development and production, while ensuring model quality, traceability, and reproducibility.
+
+---
+
+## 🔁 Transition Friction
+
+Reduce barriers between:
+- research → development
+- development → production
+
+✅ Best practices:
+- Use **standardized notebook templates**:
+  - database connection
+  - data loading
+  - shared preprocessing
+  - experiment structure
+- Clear and up-to-date documentation
+
+👉 Expected outcomes:
+- faster onboarding
+- team consistency
+- reproducibility
+
+---
+
+## 🗂 Version Control System (VCS)
+
+> "If it is not versioned, it does not exist."
+
+What should be versioned:
+- ✅ code
+- ✅ data (or data sources)
+- ✅ environments
+- ✅ artifacts (models, metrics, figures)
+
+Recommended tools:
+- Git / GitHub / GitLab
+- DVC
+- MLflow Artifacts
+
+---
+
+## 🚀 Performance
+
+Objective: run pipelines efficiently and at scale
+
+Approaches:
+- distributed computing
+- containerization
+
+Tools:
+- Docker
+- Kubernetes
+- Spark
+- Ray
+
+---
+
+## 🤖 Automation
+
+> MLOps is **pipeline-centric**, not model-centric
+
+Objectives:
+- automate the path from data to production models
+- CI/CD, CI/ML, and CD/ML
+
+Includes:
+- automated training
+- automated deployment
+- automated evaluation
+
+Tools:
+- GitHub Actions
+- GitLab CI
+- Jenkins
+- MLflow Pipelines
+
+---
+
+## 📈 Monitoring
+
+> A production model without monitoring is a ticking time bomb
+
+What to monitor:
+- incoming data
+- feature distributions (data drift)
+- latency
+- uptime
+- memory usage
+- model performance
+
+Recommended tools:
+- Prometheus
+- Grafana
+- MLflow Model Monitoring
+- Evidently AI
+
+---
+
+## 🔄 Continuous Training (CT)
+
+Automate:
+- periodic retraining
+- or trigger-based retraining:
+  - detected drift
+  - new datasets
+  - quality thresholds exceeded
+
+Typical pipeline:
+
+Data → Validation → Training → Evaluation → Registry → Deployment
+↑ ↓
+Monitoring ←-----------------------------←
+---
+
+## ✅ Visual Summary
+
+| Principle | Objective | Tools |
+|---|---|---|
+| Transition Friction | Standardization | Templates, Docs |
+| Version Control | Traceability | Git, DVC, MLflow |
+| Performance | Scalability | Docker, Kubernetes |
+| Automation | Pipelines | CI/CD, MLflow |
+| Monitoring | Production Quality | Prometheus, Grafana |
+| Continuous Training | Adaptation | Auto-retraining |
+
+---
+
+## 🧠 Key Message for the Course
+
+> The core of modern MLOps (and MLflow) is not just training a model,  
+> but maintaining **a living, monitored, and automated pipeline**.
 
 ---

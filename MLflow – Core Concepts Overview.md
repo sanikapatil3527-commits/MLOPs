@@ -1,4 +1,4 @@
-# 🌐 MLflow – Core Concepts Overview
+<!-- # 🌐 MLflow – Core Concepts Overview
 
 MLflow est une plateforme open-source permettant de gérer **le cycle de vie complet du Machine Learning**, de l'expérimentation à la mise en production.
 
@@ -136,4 +136,172 @@ Fonctionnalités :
 
 > MLflow n’est pas seulement un tracker, c’est une **colonne vertébrale MLOps** reliant entraînement, packaging, déploiement et versioning.
 
+--- -->
+
+# 🌐 MLflow – Core Concepts Overview
+
+MLflow is an open-source platform designed to manage the **entire Machine Learning lifecycle**, from experimentation to production deployment.
+
 ---
+
+## 🧩 Key Characteristics
+
+### 🌍 Language Agnostic
+MLflow can be used with:
+- any machine learning library
+- any programming language
+
+✅ **API-first and modular** approach
+
+---
+
+### 🔗 Compatibility
+
+MLflow is compatible with many ML libraries, including:
+
+- TensorFlow  
+- PyTorch  
+- Keras  
+- Scikit-learn  
+- Apache Spark  
+- XGBoost  
+- LightGBM  
+
+👉 MLflow acts as a **universal integration layer**
+
+---
+
+### 🚀 Integration
+
+MLflow enables you to:
+- deploy models to production
+- package them into:
+  - Docker containers  
+  - Kubernetes clusters  
+  - Apache Spark jobs  
+  - REST APIs  
+
+🎯 Goal: standardized and reproducible deployment
+
+---
+
+### 🏗 Creation
+
+- Created by **Databricks**
+- First release: **June 2018**
+
+Today, MLflow is a cornerstone of modern MLOps.
+
+---
+
+## 🏛 MLflow Components
+
+MLflow is built around **four core modules**:
+
+---
+
+### 📊 Tracking
+
+> Track experiments and compare them easily
+
+Enables:
+- logging of parameters
+- metrics
+- artifacts
+- visualization and comparison of experiments
+
+Tools:
+- MLflow UI
+- Python APIs / CLI
+
+---
+
+### 📦 Projects
+
+> Standardize and package ML code
+
+Goals:
+- reusability
+- reproducibility
+
+Includes:
+- environment definitions
+- dependencies
+- execution structure
+
+---
+
+### 🤖 Models
+
+> A standard format for model packaging
+
+Enables:
+- uniform export
+- multi-backend deployment
+
+Supports:
+- Docker  
+- Spark  
+- ONNX  
+- REST API serving  
+
+---
+
+### 🗃 Registry
+
+> Centralized model storage and versioning
+
+Features:
+- versioning
+- stage transitions (`Staging`, `Production`)
+- annotations
+- validation workflows
+
+🎯 The central hub of automated MLOps
+
+---
+
+## ✅ Summary View
+
+| Component | Role |
+|---|---|
+| Tracking | Experiment tracking |
+| Projects | Code packaging |
+| Models | Standard model format |
+| Registry | Model versioning & governance |
+
+---
+
+## 🧠 Key Message
+
+> MLflow is not just a tracker — it is an **MLOps backbone** that connects training, packaging, deployment, and versioning.
+
+---
+
+## 📌 Intended Audience
+
+- MBA / Executive programs  
+- Data Science & AI students  
+- MLOps Engineers  
+- Technical Leads & CTOs  
+
+---
+
+## 📚 Suggested Next Steps
+
+- Run your first MLflow experiment
+- Compare multiple model runs
+- Serve a model via MLflow + FastAPI
+- Explore the MLflow Model Registry
+- Integrate MLflow into a CI/CD pipeline
+
+---
+
+## 📖 References
+
+- Official documentation: https://mlflow.org  
+- GitHub repository: https://github.com/mlflow/mlflow  
+
+---
+
+© Course material – MLflow & MLOps  
