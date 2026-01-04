@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOPs/churn-mlops/mlruns/428561725018807690/d24452527b584833bbdc5fb279f77835/artifacts
+end_time: 1766054202015
+entry_point_name: ''
+experiment_id: '428561725018807690'
+lifecycle_stage: active
+run_id: d24452527b584833bbdc5fb279f77835
+run_name: omniscient-pig-641
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766054196347
+status: 3
+tags: []
+user_id: Kered

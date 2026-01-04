@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOPs/churn-mlops/mlruns/428561725018807690/1ef69640a61d428e9a344e8d05ce1cad/artifacts
+end_time: 1766054210631
+entry_point_name: ''
+experiment_id: '428561725018807690'
+lifecycle_stage: active
+run_id: 1ef69640a61d428e9a344e8d05ce1cad
+run_name: abundant-bird-126
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766054205655
+status: 3
+tags: []
+user_id: Kered

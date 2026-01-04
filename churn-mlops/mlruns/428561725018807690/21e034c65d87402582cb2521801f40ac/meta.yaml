@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOPs/churn-mlops/mlruns/428561725018807690/21e034c65d87402582cb2521801f40ac/artifacts
+end_time: 1766054315930
+entry_point_name: ''
+experiment_id: '428561725018807690'
+lifecycle_stage: active
+run_id: 21e034c65d87402582cb2521801f40ac
+run_name: kindly-owl-34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766054311633
+status: 3
+tags: []
+user_id: Kered
