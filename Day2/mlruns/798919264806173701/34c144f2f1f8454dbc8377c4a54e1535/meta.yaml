@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOPs/Day2/mlruns/798919264806173701/34c144f2f1f8454dbc8377c4a54e1535/artifacts
+end_time: 1767532235130
+entry_point_name: ''
+experiment_id: '798919264806173701'
+lifecycle_stage: active
+run_id: 34c144f2f1f8454dbc8377c4a54e1535
+run_name: fortunate-duck-837
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767532235102
+status: 3
+tags: []
+user_id: Kered

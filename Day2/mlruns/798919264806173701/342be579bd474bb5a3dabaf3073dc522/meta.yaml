@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOPs/Day2/mlruns/798919264806173701/342be579bd474bb5a3dabaf3073dc522/artifacts
+end_time: 1767532413762
+entry_point_name: ''
+experiment_id: '798919264806173701'
+lifecycle_stage: active
+run_id: 342be579bd474bb5a3dabaf3073dc522
+run_name: masked-mole-350
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767532413730
+status: 3
+tags: []
+user_id: Kered

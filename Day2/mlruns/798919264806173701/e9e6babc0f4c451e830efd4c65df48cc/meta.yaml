@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOPs/Day2/mlruns/798919264806173701/e9e6babc0f4c451e830efd4c65df48cc/artifacts
+end_time: 1767532144377
+entry_point_name: ''
+experiment_id: '798919264806173701'
+lifecycle_stage: active
+run_id: e9e6babc0f4c451e830efd4c65df48cc
+run_name: valuable-flea-711
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767532144346
+status: 3
+tags: []
+user_id: Kered

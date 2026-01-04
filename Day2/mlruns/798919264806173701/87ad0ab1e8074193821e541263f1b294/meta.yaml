@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOPs/Day2/mlruns/798919264806173701/87ad0ab1e8074193821e541263f1b294/artifacts
+end_time: 1767532419262
+entry_point_name: ''
+experiment_id: '798919264806173701'
+lifecycle_stage: active
+run_id: 87ad0ab1e8074193821e541263f1b294
+run_name: LogisticRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767532413781
+status: 3
+tags: []
+user_id: Kered
