@@ -15,6 +15,7 @@ from sklearn.impute import SimpleImputer
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
+#from sklearn.ensemble import DecisionTreeClassifier
 from sklearn.metrics import (
     accuracy_score,
     precision_score,
@@ -72,6 +73,7 @@ def get_models():
             max_depth=None,
             random_state=42
         )
+        
     }
 
 
