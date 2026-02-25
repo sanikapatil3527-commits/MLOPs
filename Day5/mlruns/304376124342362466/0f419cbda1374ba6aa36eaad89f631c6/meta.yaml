@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOPs/Day5/mlruns/304376124342362466/0f419cbda1374ba6aa36eaad89f631c6/artifacts
+end_time: 1769556066953
+entry_point_name: ''
+experiment_id: '304376124342362466'
+lifecycle_stage: active
+run_id: 0f419cbda1374ba6aa36eaad89f631c6
+run_name: RandomForest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769556060711
+status: 3
+tags: []
+user_id: Kered
