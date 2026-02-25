@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOPs/Day5/mlruns/304376124342362466/892bf48933434e0aa9d2d1b721ad3dff/artifacts
+end_time: 1769556538235
+entry_point_name: ''
+experiment_id: '304376124342362466'
+lifecycle_stage: active
+run_id: 892bf48933434e0aa9d2d1b721ad3dff
+run_name: GradientBoosting
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769556532117
+status: 3
+tags: []
+user_id: Kered
